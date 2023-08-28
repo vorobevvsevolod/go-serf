@@ -1,0 +1,109 @@
+.sleep{
+    height: auto;
+    margin-top: -12em;
+    background-image: url(../img/sleep-flowers.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+
+    .sleep-arrows {
+        font-size: 15px;
+        cursor: pointer;
+        position: absolute;
+        top: 29%;
+        right: 6%;
+        opacity: .3;
+    
+        &__left {
+            margin-right: 40px;
+        }
+    }
+}
+
+
+.sleep-slider__info{
+
+    &-title{
+        font-weight: 800;
+        font-size: 2.667em;
+        padding-left: 2em;
+        position: relative; 
+        display: flex;
+
+        
+        &-span{
+            width: 1em;
+        }
+    }
+
+    &-calc{
+        position: absolute;
+        font-size: 0.75rem;
+        color: rgba(#fff, 0.75);
+        font-weight: 400;
+        text-align: right;
+        line-height: 0;
+        letter-spacing: .25em;
+        right:  32%;
+        bottom: -16%; 
+
+        
+    }
+}
+
+
+.calc__plus{
+    width: 0.94em;
+    height: 2.3px;
+    position: relative;
+    
+    &:after{  
+        content: "";
+        width: 0.94em;
+        height: 2.3px;
+        background-color: $accent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+
+    &:before{      
+        transform: translate(-50%,-35%);
+        top: 50%;
+        left: 50%;
+        content: "";
+        width: 2.3px;
+        height: 0.94em;
+        background-color: $accent;
+        position: absolute;
+    }
+}
+
+.calc__minus{
+    width: 0.94em;
+    height: 2.3px;
+    position: relative;
+    margin-right: 2px;
+
+    &:after{
+        content: "";
+        width: 0.94em;
+        height: 2.3px;
+        background-color: $accent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+}
+
+.descr-sleep{
+    padding-top: 6em;
+    margin-top: -17em;
+    padding-left: 7.8em;
+    min-height: 19em;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+

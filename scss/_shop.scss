@@ -1,0 +1,94 @@
+.shop{
+    background-image: url(../img/Shop-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-bottom: 10rem;
+}
+
+.Holder__star-list{
+    
+    margin-left: -1rem;
+    display: flex;
+    img{
+        margin-right: -1rem;
+    }
+    
+}
+
+.descr-shop{
+    padding-bottom: 2.6rem;
+}
+
+.shop__slider{
+    &-info{
+        max-width: 40rem;
+        width: 100%;
+        position: relative;
+        margin: auto 0;
+        
+    }
+
+    &-inner{
+        display: flex;
+        position: relative;
+    }
+
+    &-price{
+        font-size: 2rem;
+        font-weight: 800;
+        margin-bottom: 4.1875rem;
+    }
+
+    
+}
+
+.shop__slider-content{
+    display: flex;
+    position: relative;
+}
+
+.shop__extras{
+    position: absolute;
+    bottom: 2%;
+    right: -250%;
+    width: 22rem;
+    &-inner{
+        display: flex;
+        
+    }
+
+    &-box{
+        
+        width: 50%;
+        padding: 2rem;
+        
+    }
+
+    &-img{
+       height: 6.4rem;
+       position: relative;
+       img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+       }
+        
+        
+    }
+
+    &-name{
+        margin-top: 2.3rem;
+        font-size: 1.1rem;
+        letter-spacing: 0.3rem;
+        color: rgba($color: #fff, $alpha: .5);
+        font-weight: 400;
+
+    }
+
+    &-title{
+        font-size: 1.75rem;
+        font-weight: 800;
+        color: #fff;
+    }
+}

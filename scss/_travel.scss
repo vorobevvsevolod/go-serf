@@ -1,0 +1,127 @@
+.travel{
+    height: auto;
+    padding-bottom: 15em;
+    background-image: url(../img/travel-coct.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.container__content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.Holder-slider{
+
+    &__head{
+        background-repeat: no-repeat;
+        background-position: top left;
+        min-height: 52em;
+        
+    }
+    &-subtitle{
+        text-align: right;
+        padding-right: 5.334em;
+        padding-top: 8.8em;
+    }
+
+    &__btn{
+        text-align: center;
+    }
+
+    &__descr{
+        position: relative;
+        img{
+            position: absolute;
+            right: 0;
+            
+        }
+
+}
+}
+
+
+.descr{
+    padding-top: 6em;
+    margin-top: -14em;
+    padding-left: 8.8em;
+    min-height: 15em;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.descr__head{
+    display: flex;
+    position: relative;
+    img{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 30%;
+    }
+}
+
+.Holder-slider__info{
+    position: relative;
+    &-gamak{
+        position: absolute;
+        right: 0;
+        top: -100%;
+    }
+    padding: 3em 0 3em 0;
+    
+    display: flex;
+    justify-content: space-around;
+
+    &-flowers{
+        position: absolute;
+        top: -60%;
+        right: 0;
+    }
+    &-item{
+        min-height: 18em;
+        width: 25%;
+        position: relative;
+
+        
+    }
+
+    &-subtitle{
+        position: absolute;
+        font-weight: 400;
+        font-size: 1.25em;
+        letter-spacing: 0.5em;
+        color: rgba(#fff,0.5);
+        transform: rotate(-90deg);
+        text-align: right;
+        top: 6em;
+        left: -4em;
+        width: 12em;
+        height: 0;
+        white-space: nowrap;
+        
+
+    }
+
+    &-title{
+        font-weight: 800;
+        font-size: 2.667em;
+        padding-left: 2em;
+        position: relative;
+           
+        
+
+        span{
+            position: absolute;
+            font-size: 0.75rem;
+            color: rgba(#fff, 0.75);
+            font-weight: 400;
+            text-align: right;
+            line-height: 0;
+            letter-spacing: .25em;
+            right: 22%;
+            bottom: -6%;      
+        }
+        
+        
+    }
+}
